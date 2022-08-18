@@ -1,6 +1,6 @@
-const divide = function (a, b){
+const divide = function (a = 2000, b=100){
 
-    return parseInt(a/b);
+    return (a/b);
 }
 console.log(divide(2000, 100));
 
